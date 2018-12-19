@@ -1158,7 +1158,7 @@ pop $0
 ; GWL_STYLE is defined in nsdialogs.nsh.
 	System::Call "user32::GetWindowLong(i ${CONTROL}, i ${GWL_STYLE}) i .s"
 !macroend
-!define NSD_GetStyle "!insertmacro _NSD_GetStyle"
+; !define NSD_GetStyle "!insertmacro _NSD_GetStyle"
 
 !macro LVGetExStyle
 ; Returns extended style on stack.
